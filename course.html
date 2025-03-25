@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style_.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ <script>
+        function toggleCourses(id) {
+            var element = document.getElementById(id);
+            if (element.style.display === "none" || element.style.display === "") {
+                element.style.display = "block";
+            } else {
+                element.style.display = "none";
+            }
+        }
+    </script>
+
+</head>
+<body>
+
+  <section class="header3">
+    <nav>
+      <a href="index.html"><img src="logooT.png"></a>
+      <div class="nav-links" id="navLinks">
+        <ul>
+          <li><a href="home.html">home |</a></li>ss
+         <li><a href="about.html">About|</a></li>
+         <li><a href="course.html">Course |</a></li>
+         <li><a href="">Contact |</a></li>
+         <li><a href="blogs.html">Blog</a></li>
+        </ul>
+      </div>
+   </nav>
+   <h1>Our Courses</h1>
+  </section>
+<!-------------------about us content-------------------->
+<section class="course">
+   <h1>Courses we offer for you</h1>
+   <p>Discover our range of academic programs, designed to inspire, motivate, and empower students to achieve their full potential. From undergraduate degrees to postgraduate and research programs, our courses are delivered by experienced faculty, providing a rich learning experience that combines theoretical foundations with practical applications.
+</p>
+
+  <div class="row">
+    <div class="course-col">
+       <h3>Intermediate</h3>
+       <p>Build a strong foundation in your chosen subjects.
+Develop critical thinking and problem-solving skills.
+Prepare for further education or entry into the workforce</p>
+    </div>
+    <div class="course-col">
+       <h3>Degree</h3>
+       <p>Specialize in your chosen field and develop advanced skills.
+Gain practical experience and real-world knowledge.
+Launch a successful career in your chosen profession.</p>
+     </div>
+    <div class="course-col">
+       <h3>POstGraduation</h3>
+       <p>Take your knowledge and skills to the next level.
+Develop advanced research and specialization skills.
+Prepare for leadership roles, academic pursuits, or entrepreneurship.</p>
+ </div>
+</section>
+<!----------------------------coursees list-------------------------->
+<section class="course">
+   <h1>Courses We Offer</h1>
+   <p>Explore the diverse range of academic programs available, tailored to develop skills and expertise across multiple disciplines.</p>
+
+   <div class="course-container">
+       <div class="course-category" onclick="toggleCourses('be-courses')">
+           <span>B.E</span>
+           <i class="fas fa-book"></i>
+       </div>
+       <ul id="be-courses" class="course-list">
+           <li>Mechanical Engineering</li>
+           <li>Electrical Engineering</li>
+           <li>Computer Science Engineering</li>
+           <li>Civil Engineering</li>
+       </ul>
+
+       <div class="course-category" onclick="toggleCourses('me-courses')">
+           <span>M.E</span>
+           <i class="fas fa-book"></i>
+       </div>
+       <ul id="me-courses" class="course-list">
+           <li>Structural Engineering</li>
+           <li>Software Engineering</li>
+           <li>Power Systems</li>
+       </ul>
+
+       <div class="course-category" onclick="toggleCourses('btech-courses')">
+           <span>B.Tech</span>
+           <i class="fas fa-book"></i>
+       </div>
+       <ul id="btech-courses" class="course-list">
+           <li>Information Technology</li>
+           <li>Biotechnology</li>
+       </ul>
+
+       <div class="course-category" onclick="toggleCourses('arts-courses')">
+           <span>Arts & Science</span>
+           <i class="fas fa-book"></i>
+       </div>
+       <ul id="arts-courses" class="course-list">
+           <li>Physics</li>
+           <li>Chemistry</li>
+           <li>Mathematics</li>
+       </ul>
+
+       <div class="course-category" onclick="toggleCourses('phd-courses')">
+           <span>PhD</span>
+           <i class="fas fa-book"></i>
+       </div>
+       <ul id="phd-courses" class="course-list">
+           <li>Computer Science Research</li>
+           <li>Biotechnology Research</li>
+       </ul>
+   </div>
+
+</section>
+<!---------------------course detailes--------------------->
+  <section class="campus">
+   <h1>Our Top Courses</h1>
+   <p>Explore more details on each course, its objectives, and outcomes.</p>
+
+   <div class="row">
+      <div class="campus-col">
+         <img src="london.jpeg" alt="Civil Engineering">
+         <div class="layer">
+            <h3>Civil</h3>
+         </div>
+      </div>
+      <div class="campus-col">
+         <img src="london2.jpeg" alt="Mechanical Engineering">
+         <div class="layer">
+            <h3>Mechanical</h3>
+         </div>
+      </div>
+      <div class="campus-col">
+         <img src="london3.jpg" alt="Electrical Engineering">
+         <div class="layer">
+            <h3>Electrical</h3>
+         </div>
+      </div>
+   </div>
+
+   <div class="row">
+      <div class="campus-col">
+         <img src="london2.jpeg" alt="Computer Science Engineering">
+         <div class="layer">
+            <h3>Computer Science</h3>
+         </div>
+      </div>
+      <div class="campus-col">
+         <img src="london.jpeg" alt="Biotechnology">
+         <div class="layer">
+            <h3>Biotechnology</h3>
+         </div>
+      </div>
+      <div class="campus-col">
+         <img src="london3.jpg" alt="Information Technology">
+         <div class="layer">
+            <h3>Information Technology</h3>
+         </div>
+      </div>
+   </div>
+ <div class="row">
+      <div class="campus-col">
+         <img src="london3.jpg" alt="ECE">
+         <div class="layer">
+            <h3>Electronics and communication</h3>
+         </div>
+      </div>
+      <div class="campus-col">
+         <img src="london2.jpeg" alt="AIDS">
+         <div class="layer">
+            <h3>Artificial and data Science</h3>
+         </div>
+      </div>
+      <div class="campus-col">
+         <img src="london.jpeg" alt="csbs">
+         <div class="layer">
+            <h3>computer science and bussiness systems</h3>
+         </div>
+      </div>
+   </div>
+
+
+</section>
+
+
+<!-------------footer------------->
+<section class="footer" style="background-color: gold;">
+ <h4>About Us</h4>
+ <p>we believe that education is the key to unlocking human potential. Our mission is to provide a supportive and<br>inclusive learning environment that empowers students to achieve their goals and pursue their passions. <br>sWith a strong focus on academic rigor, innovation, and community engagement, we are committed to shaping the minds of future leaders.</p>
+   <div class="icons">
+       
+    <center>Connect with us on:</center><br>
+    <i class="fab fa-facebook"></i> Facebook, 
+    <i class="fab fa-instagram"></i> Instagram, 
+    <i class="fab fa-twitter"></i> Twitter, and 
+    <i class="fab fa-whatsapp"></i> WhatsApp.
+  
+</div>
+</section>
